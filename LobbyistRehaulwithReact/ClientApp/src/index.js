@@ -10,9 +10,7 @@ const root = createRoot(rootElement);
 
 root.render(
     <>
-        <html>
-            <Banner />
-            <Login />
-        </html>
+        <Banner />
+        <Login />
     </>
 );
