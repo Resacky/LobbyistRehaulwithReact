@@ -1,28 +1,25 @@
-﻿/* this is a template for a React.js 'component' */
-import React, { Component } from 'react';
-import '../styles/LoginPageStyle/BannerLogin.css';
-import cityLogo from '../assets/CityLogoHorizontalWhite.png'; // Do it this way
+﻿import "../styles/LoginPageStyle/Banner.css";
+import CityLogo from "../assets/CityLogoHorizontalWhite.png";
 
-export class Banner extends Component {
-    static displayName = Banner.name;
+function Banner() {
 
-    render() {
-        return (
-            <>
-                <div className="header">
-                    <div className="headerContent">
-                        <div>
-                            <a href="https://www.coralgables.com">
-                                <img src={cityLogo} className="cityLogo" />
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://www.coralgables.com/department/office-city-clerk" className="Clerktext">
-                                <label className="Clerktext"><span>Back To City Clerk Homepage</span></label></a>
-                        </div>
+    return (
+        <>
+            <div class="header">
+                <div class="headerContent">
+                    <div>
+                        <a href="https://www.coralgables.com">
+                            <img src={CityLogo} class="cityLogo" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.coralgables.com/department/office-city-clerk" class="Clerktext">
+                            <label class="Clerktext"><span>Back To City Clerk Homepage</span></label></a>
                     </div>
                 </div>
-            </>
-        );
-    }
+            </div>
+        </>
+    );
 }
+
+export default Banner;
