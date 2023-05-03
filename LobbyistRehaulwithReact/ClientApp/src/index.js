@@ -15,6 +15,15 @@ root.render(
         <Router>
             <Banner />
             <Login />
+
+            <Switch>
+                <Route path="/Homepage" exact>
+                    <Homepage />
+                </Route>
+
+
+
+            </Switch>
         </Router>
     </>
 );
