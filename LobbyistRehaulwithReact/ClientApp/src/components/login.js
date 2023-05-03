@@ -28,8 +28,8 @@ function Login() {
                 </div>
 
                 <div class="form-group">
-                    <button type="New_User" class="secondary">New User?</button>
-                    <button type="Forgot_Password" class="secondary">Forgot Password?</button>
+                    <Link to="/NewUser" className="secondary">New User?</Link>
+                    <Link to="/ForgotPassword" className="secondary">Forgot Password?</Link>
                 </div>
             </div>
         </>

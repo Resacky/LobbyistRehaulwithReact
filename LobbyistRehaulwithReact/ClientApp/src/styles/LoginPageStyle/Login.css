@@ -81,14 +81,23 @@ button,
     }
 
 /* Style the secondary button */
-button.secondary {
+.secondary {
     border: 2px solid;
     background-color: #007073;
     color: #fff;
     border-color: #007073;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    transition: all 0.2s ease-in-out;
+    margin-right: 1%;
 }
 
-    button.secondary:hover {
+    .secondary:hover {
         border: 2px solid;
         background-color: #fff;
         color: #007073;
