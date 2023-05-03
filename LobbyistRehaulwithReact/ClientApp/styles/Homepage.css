@@ -1,0 +1,169 @@
+﻿.background {
+    background-color: #fcf6f3;
+}
+
+.header {
+    background-color: rgba(0, 112, 115, 0.8);
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    padding: 2%;
+    margin: -10px -8px 0px -10px;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cityLogo {
+    height: auto;
+    max-width: 100%;
+    width: 250px;
+}
+
+.Clerktext {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+}
+
+    .Clerktext:hover {
+        text-decoration: underline;
+    }
+
+    .Clerktext a {
+        text-decoration: none;
+    }
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+
+/* Default styles for button */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.15);
+    width: 10%;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+/* Styles for button on small screens */
+@media only screen and (max-width: 767px) {
+    .button {
+        padding: 8px;
+        margin: 4px;
+        font-size: 0.8rem;
+        height: 22vh;
+    }
+
+        .button:hover {
+            transform: translateY(-2px);
+            border-radius: 5px;
+        }
+}
+
+/* Styles for button on medium screens */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .button {
+        padding: 10px;
+        margin: 5px;
+        font-size: 1rem;
+        height: 22vh;
+    }
+
+        .button:hover {
+            transform: translateY(-3px);
+            border-radius: 5px;
+        }
+}
+
+/* Styles for button on large screens */
+@media only screen and (min-width: 992px) {
+    .button {
+        padding: 2.4rem;
+        margin: 1%;
+        font-size: 1.2rem;
+        height: 22vh;
+    }
+
+        .button:hover {
+            transform: translateY(-4px);
+            border-radius: 5px;
+        }
+}
+
+.buttonLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.icon,
+.ButtonHeader,
+.arrow {
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    display: block;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ButtonHeader {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 2rem;
+    color: #58524B;
+    word-wrap: break-word;
+}
+
+    .ButtonHeader:hover {
+        text-decoration: none;
+        color: #58524B;
+    }
+
+.arrow {
+    padding-top: 10%;
+}
+
+.buffer {
+    padding: 10vh;
+}
+
+.footer {
+    text-align: justify;
+}
