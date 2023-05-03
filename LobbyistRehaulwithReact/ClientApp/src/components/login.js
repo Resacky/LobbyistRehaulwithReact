@@ -1,11 +1,7 @@
 ﻿import "../styles/LoginPageStyle/Login.css";
 import { Link } from "react-router-dom";
 
-const linkStyleSubmit = {
-
-
-}
-
+/* look more into the react-router-dom library and how it works, figure out how to have the <Router> within the index.js */
 function Login() {
     return (
         <>
