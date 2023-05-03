@@ -1,0 +1,8 @@
+﻿.background {
+    background-image: url("../../assets/CityHall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 5%;
+    height: 100%;
+    max-width: 100%;
+}
