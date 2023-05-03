@@ -3,8 +3,8 @@ import './styles/LoginPageStyle/Background.css';
 import React, { Component } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import Login from './components/Login';
-import Banner from './components/Banner';
+import Login from './components/Login.js';
+import Banner from './components/Banner.js';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
