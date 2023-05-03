@@ -1,4 +1,10 @@
 ﻿import "../styles/LoginPageStyle/Login.css";
+import { Link } from "react-router-dom";
+
+const linkStyleSubmit = {
+
+
+}
 
 function Login() {
     return (
@@ -18,7 +24,7 @@ function Login() {
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" class="primary">Submit</button>
+                    <Link to="/Homepage" className="primary">Submit</Link>
                 </div>
 
                 <div class="form-group">
