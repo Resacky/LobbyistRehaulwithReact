@@ -9,7 +9,7 @@ function Banner() {
                 <div class="headerContent">
                     <div>
                         <a href="https://www.coralgables.com">
-                            <img src={CityLogo} class="cityLogo" />
+                            <img src={CityLogo} alt="City Logo" class="cityLogo" />
                         </a>
                     </div>
                     <div>
