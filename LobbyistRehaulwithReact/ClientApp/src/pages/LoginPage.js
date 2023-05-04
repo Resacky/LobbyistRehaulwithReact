@@ -1,8 +1,8 @@
 ﻿import React from 'react';
+import '../styles/LoginPageStyle/Background.css';
+
 import Login from '../components/Login';
 import Banner from '../components/Banner';
-
-import '../styles/LoginPageStyle/Background.css';
 
 function LoginPage() {
     return (

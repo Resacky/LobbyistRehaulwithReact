@@ -4,8 +4,8 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 /* these are the pages, within React.js pages and components are the same thing */
-import LoginPage from './Pages/LoginPage';
-import Menu from './Pages/Menu';
+import LoginPage from './pages/LoginPage';
+import Menu from './pages/Menu';
 
 /* everything that will be rendered will be rendered within the index.html beginning within the 'root' ID body element of the HTML code */
 const rootElement = document.getElementById('root');

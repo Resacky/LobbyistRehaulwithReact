@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{7E9BCBC8-6A34-4C26-A6F1-E3FB32DA01BE}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LobbyistRehaulwithReact" expanded="True" selected="True">
+            <Node name="LobbyistRehaulwithReact" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LobbyistRehaulwithReact PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
