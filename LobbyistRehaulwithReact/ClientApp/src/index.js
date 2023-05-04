@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import './styles/LoginPageStyle/Background.css';
 import React, { Component } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
+/* these are the pages, within React.js pages and components are the same thing */
 import LoginPage from './Pages/LoginPage';
 import Menu from './Pages/Menu';
 

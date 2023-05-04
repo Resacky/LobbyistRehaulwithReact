@@ -2,11 +2,15 @@
 import Login from '../components/Login';
 import Banner from '../components/Banner';
 
+import '../styles/LoginPageStyle/Background.css';
+
 function LoginPage() {
     return (
         <>
-            <Banner />
-            <Login />
+            <body className="background">
+                <Banner />
+                <Login />
+            </body>
         </>
     );
 }

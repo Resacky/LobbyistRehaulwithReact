@@ -6,18 +6,18 @@ import { Link } from "react-router-dom";
 function Login() {
     return (
         <>
-            <div class="login-container">
+            <div className="login-container">
 
-                <h2 class="Titletext">Login</h2>
+                <h2 className="Titletext">Login</h2>
 
-                <div class="form-group">
-                    <label class="text" for="txtEmail">Email:</label>
-                    <input type="text" class="form-control" id="txtEmail" name="txtEmail" placeholder="Enter Email" />
+                <div className="form-group">
+                    <label className="text" for="txtEmail">Email:</label>
+                    <input type="text" className="form-control" id="txtEmail" name="txtEmail" placeholder="Enter Email" />
                 </div>
 
-                <div class="form-group">
-                    <label class="text" for="txtPassword">Password:</label>
-                    <input type="password" class="form-control" id="txtPassword" name="txtPassword" placeholder="Enter password" />
+                <div className="form-group">
+                    <label className="text" for="txtPassword">Password:</label>
+                    <input type="password" className="form-control" id="txtPassword" name="txtPassword" placeholder="Enter password" />
                 </div>
 
                 <div class="form-group">
@@ -29,6 +29,9 @@ function Login() {
                     <Link to="/ForgotPassword" className="secondary">Forgot Password?</Link>
                 </div>
             </div>
+
+            <div className="buffer"></div>
+
         </>
     );
 }
