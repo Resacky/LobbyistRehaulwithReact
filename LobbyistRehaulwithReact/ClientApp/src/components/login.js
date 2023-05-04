@@ -21,7 +21,7 @@ function Login() {
                 </div>
 
                 <div class="form-group">
-                    <Link to="/Homepage" className="primary">Submit</Link>
+                    <Link to="/Menu" className="primary">Submit</Link>
                 </div>
 
                 <div class="form-group">
@@ -29,9 +29,6 @@ function Login() {
                     <Link to="/ForgotPassword" className="secondary">Forgot Password?</Link>
                 </div>
             </div>
-
-            <div className="buffer"></div>
-
         </>
     );
 }
