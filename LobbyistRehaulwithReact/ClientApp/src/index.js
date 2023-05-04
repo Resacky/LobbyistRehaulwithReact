@@ -2,9 +2,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/LoginPageStyle/Background.css';
 import React, { Component } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Login from './components/Login.js';
-import Banner from './components/Banner.js';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Login from './components/login.js';
+import Banner from './components/banner.js';
 import Homepage from './Pages/Homepage.js';
 
 const rootElement = document.getElementById('root');
@@ -16,14 +16,14 @@ root.render(
             <Banner />
             <Login />
 
-            <Switch>
+            <Routes>
                 <Route path="/Homepage" exact>
                     <Homepage />
                 </Route>
 
 
 
-            </Switch>
+            </Routes>
         </Router>
     </>
 );
