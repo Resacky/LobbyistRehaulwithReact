@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 
-function Homepage() {
+function Menu() {
     return (
         <>
             <div>
@@ -10,4 +10,4 @@ function Homepage() {
     );
 }
 
-export default Homepage;
+export default Menu;

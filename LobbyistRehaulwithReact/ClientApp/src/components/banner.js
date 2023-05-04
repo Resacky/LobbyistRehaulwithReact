@@ -1,4 +1,5 @@
-﻿import "../styles/LoginPageStyle/Banner.css";
+﻿import React from 'react';
+import "../styles/LoginPageStyle/Banner.css";
 import CityLogo from "../assets/CityLogoHorizontalWhite.png";
 
 function Banner() {

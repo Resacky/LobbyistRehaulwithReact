@@ -1,4 +1,5 @@
-﻿import "../styles/LoginPageStyle/Login.css";
+﻿import React from 'react';
+import "../styles/LoginPageStyle/Login.css";
 import { Link } from "react-router-dom";
 
 /* look more into the react-router-dom library and how it works, figure out how to have the <Router> within the index.js */
