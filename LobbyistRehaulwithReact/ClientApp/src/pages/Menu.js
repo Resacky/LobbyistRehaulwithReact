@@ -30,6 +30,8 @@ function Menu() {
                     <Button link="" icon={SignOutIcon} buttonMessage="Sign Out" />
                 </div>
 
+                <></>
+
                 <MenuFooter />
             </div>
         </>
