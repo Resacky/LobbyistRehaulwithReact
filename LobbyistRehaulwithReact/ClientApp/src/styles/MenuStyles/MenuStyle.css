@@ -1,0 +1,13 @@
+﻿.overallDiv {
+    background-color: #fcf6f3;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.buttonRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: center;
+    margin-top: 10vh;
+}

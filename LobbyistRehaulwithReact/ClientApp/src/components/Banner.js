@@ -6,16 +6,16 @@ function Banner() {
 
     return (
         <>
-            <div class="header">
-                <div class="headerContent">
+            <div className="header">
+                <div className="headerContent">
                     <div>
                         <a href="https://www.coralgables.com">
-                            <img src={CityLogo} alt="City Logo" class="cityLogo" />
+                            <img src={CityLogo} alt="City Logo" className="cityLogo" />
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.coralgables.com/department/office-city-clerk" class="Clerktext">
-                            <label class="Clerktext"><span>Back To City Clerk Homepage</span></label></a>
+                        <a href="https://www.coralgables.com/department/office-city-clerk" className="Clerktext">
+                            <label className="Clerktext"><span>Back To City Clerk Homepage</span></label></a>
                     </div>
                 </div>
             </div>
