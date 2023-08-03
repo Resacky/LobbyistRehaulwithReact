@@ -4,6 +4,7 @@ using LobbyistRehaulwithReact.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LobbyistRehaulwithReact.Migrations
 {
     [DbContext(typeof(LobbyistDbContext))]
-    partial class LobbyistDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230803161620_Add_Issues2_Table")]
+    partial class Add_Issues2_Table
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,102 +23,6 @@ namespace LobbyistRehaulwithReact.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
-
-            modelBuilder.Entity("LobbyistRehaulwithReact.Models.Issues2", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("ID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
-
-                    b.Property<bool>("Active")
-                        .HasColumnType("bit")
-                        .HasColumnName("Active");
-
-                    b.Property<string>("AssociatedProject")
-                        .HasColumnType("char")
-                        .HasColumnName("Associated Project");
-
-                    b.Property<string>("Board")
-                        .HasColumnType("char")
-                        .HasColumnName("Board");
-
-                    b.Property<DateTime?>("Date")
-                        .HasColumnType("date")
-                        .HasColumnName("Date");
-
-                    b.Property<string>("Memo_Field")
-                        .HasColumnType("char")
-                        .HasColumnName("Memo_Field");
-
-                    b.Property<string>("Principal_ID")
-                        .IsRequired()
-                        .HasColumnType("char")
-                        .HasColumnName("Principal_ID");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Issues2");
-                });
-
-            modelBuilder.Entity("LobbyistRehaulwithReact.Models.Lobbyists_new", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("ID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("char")
-                        .HasColumnName("Address");
-
-                    b.Property<string>("BuesinessName")
-                        .IsRequired()
-                        .HasColumnType("char")
-                        .HasColumnName("Business_Name");
-
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("char")
-                        .HasColumnName("City");
-
-                    b.Property<int?>("LobbyistID")
-                        .HasColumnType("int")
-                        .HasColumnName("Lobbyist ID");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("char")
-                        .HasColumnName("Name");
-
-                    b.Property<string>("PostalCode")
-                        .IsRequired()
-                        .HasColumnType("char")
-                        .HasColumnName("Zip_Code");
-
-                    b.Property<string>("State")
-                        .IsRequired()
-                        .HasColumnType("char")
-                        .HasColumnName("State");
-
-                    b.Property<string>("StreetAddress")
-                        .HasColumnType("char")
-                        .HasColumnName("Street_Address");
-
-                    b.Property<string>("TelephoneNumber")
-                        .IsRequired()
-                        .HasColumnType("char")
-                        .HasColumnName("Telephone_Number");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Lobbyists_new");
-                });
 
             modelBuilder.Entity("LobbyistRehaulwithReact.Models.MasterList", b =>
                 {
