@@ -4,6 +4,9 @@ import '../styles/MenuStyles/MenuStyle.css';
 
 import Banner from '../components/Banner';
 import Button from '../components/Button';
+
+import BasicExample from '../components/BasicExample';
+
 import MenuFooter from '../components/MenuFooter';
 
 import HouseIcon from '../assets/HouseIcon_custom.png';
@@ -21,14 +24,9 @@ function Menu() {
             <div className="overallDiv">
                 <Banner />
                 <div className="buttonRow">
-                    <Button link="" icon={HouseIcon} buttonMessage="Home" />
-                    <Button link="" icon={RegisrationIcon} buttonMessage="Registration" />
-                    <Button link="/ViewPrincipals" icon={ReportsIcon} buttonMessage="Reports" />
-                    <Button link="" icon={EnpendatureReportsIcon} buttonMessage="Expenditure Reports" />
-                    <Button link="" icon={EditInformationIcon} buttonMessage="Edit Information" />
-                    <Button link="" icon={RegistrationCertificateIcon} buttonMessage="Registration Certificate" />
-                    <Button link="" icon={ResetPasswordIcon} buttonMessage="Reset Password" />
-                    <Button link="" icon={SignOutIcon} buttonMessage="Sign Out" />
+
+                    <BasicExample />
+
                 </div>
 
                 <MenuFooter />

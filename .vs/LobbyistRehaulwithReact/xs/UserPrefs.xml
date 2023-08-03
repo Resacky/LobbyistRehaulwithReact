@@ -1,24 +1,38 @@
 ﻿<Properties StartupConfiguration="{7E9BCBC8-6A34-4C26-A6F1-E3FB32DA01BE}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LobbyistRehaulwithReact PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LobbyistRehaulwithReact/ClientApp/src/components/BasicExample.js">
+    <Files>
+      <File FileName="LobbyistRehaulwithReact/ClientApp/src/pages/Menu.js" Line="8" Column="16" />
+      <File FileName="LobbyistRehaulwithReact/ClientApp/src/components/BasicExample.js" Line="25" Column="34" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LobbyistRehaulwithReact" expanded="True" selected="True">
+          <Node name="LobbyistRehaulwithReact" expanded="True">
             <Node name="LobbyistRehaulwithReact" expanded="True">
               <Node name="ClientApp" expanded="True">
-                <Node name="src" expanded="True" />
+                <Node name="src" expanded="True">
+                  <Node name="components" expanded="True">
+                    <Node name="BasicExample.js" selected="True" />
+                  </Node>
+                  <Node name="pages" expanded="True">
+                    <Node name="Reports" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.LobbyistRehaulwithReact PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
