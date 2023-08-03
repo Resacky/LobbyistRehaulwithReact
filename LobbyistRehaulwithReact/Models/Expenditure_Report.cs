@@ -57,6 +57,5 @@ namespace LobbyistRehaulwithReact.Models
 
         [Column("Year", TypeName = "char")]
         public string? Year { get; set; }
-
     }
 }
