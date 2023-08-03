@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 /* these are the pages, within React.js pages and components are the same thing */
 import LoginPage from './pages/LoginPage';
 import Menu from './pages/Menu';
+import ViewPrincipals from './pages/Reports/ViewPrincipals';
 
 /* everything that will be rendered will be rendered within the index.html beginning within the 'root' ID body element of the HTML code */
 const rootElement = document.getElementById('root');
@@ -19,6 +20,7 @@ root.render(
                 <Route path="/" element={<Navigate from="/" to="/LoginPage" />} />
                 <Route path="/LoginPage" element={<LoginPage />} />
                 <Route path="/Menu" element={<Menu />} />
+                <Route path="/ViewPrincipals" element={<ViewPrincipals />} />
             </Routes>
         </Router>
     </>

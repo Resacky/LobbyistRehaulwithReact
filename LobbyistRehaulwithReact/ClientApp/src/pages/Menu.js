@@ -1,4 +1,5 @@
-﻿import React from 'react';
+﻿import React, { useState } from 'react';
+
 import '../styles/MenuStyles/MenuStyle.css';
 
 import Banner from '../components/Banner';
@@ -22,15 +23,13 @@ function Menu() {
                 <div className="buttonRow">
                     <Button link="" icon={HouseIcon} buttonMessage="Home" />
                     <Button link="" icon={RegisrationIcon} buttonMessage="Registration" />
-                    <Button link="" icon={ReportsIcon} buttonMessage="Reports" />
+                    <Button link="/ViewPrincipals" icon={ReportsIcon} buttonMessage="Reports" />
                     <Button link="" icon={EnpendatureReportsIcon} buttonMessage="Expenditure Reports" />
                     <Button link="" icon={EditInformationIcon} buttonMessage="Edit Information" />
                     <Button link="" icon={RegistrationCertificateIcon} buttonMessage="Registration Certificate" />
                     <Button link="" icon={ResetPasswordIcon} buttonMessage="Reset Password" />
                     <Button link="" icon={SignOutIcon} buttonMessage="Sign Out" />
                 </div>
-
-                <></>
 
                 <MenuFooter />
             </div>

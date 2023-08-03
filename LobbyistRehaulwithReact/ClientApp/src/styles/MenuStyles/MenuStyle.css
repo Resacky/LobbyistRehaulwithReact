@@ -11,3 +11,25 @@
     position: center;
     margin-top: 10vh;
 }
+
+.test {
+    border: 2px solid;
+    background-color: #c05818;
+    color: #fff;
+    border-color: #c05818;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    transition: all 0.2s ease-in-out;
+}
+
+    .test:hover {
+        border: 2px solid;
+        background-color: #934312;
+        color: #fff;
+        border-color: #c05818;
+    }

@@ -1,16 +1,16 @@
 ﻿import react from 'react';
+import { Link } from "react-router-dom";
+
 import '../styles/MenuStyles/ButtonStyle.css';
 
-const Button = ({ link, icon, buttonMessage }) => {
+function Button ({ link, icon, buttonMessage }) {
     return (
-        <>
-            <div className="button">
-                <a href={link} className="buttonLinks">
-                    <img src={icon} className="icon" />
-                    <label className="ButtonHeader">{buttonMessage}</label>
-                </a>
-            </div>
-        </>
+        <li className="button">
+            <Link to={link} className="buttonLinks">
+                <img src={icon} className="icon" />
+                <text className="ButtonHeader">{buttonMessage}</text>
+            </Link>
+        </li>
     );
 }
 

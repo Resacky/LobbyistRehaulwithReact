@@ -38,6 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ClientApp\src\styles\ReportsStyles\ViewPrincipalsStyle\" />
     <Folder Include="Migrations\" />
   </ItemGroup>
 
