@@ -61,6 +61,5 @@ namespace LobbyistRehaulwithReact.Models
 
         [Column("Principal Email", TypeName = "char")]
         public string? principleEmail { get; set; }
-
     }
 }

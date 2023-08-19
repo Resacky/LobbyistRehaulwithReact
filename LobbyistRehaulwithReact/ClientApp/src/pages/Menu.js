@@ -18,6 +18,7 @@ import RegistrationCertificateIcon from '../assets/RegistrationCertificateIcon_c
 import ResetPasswordIcon from '../assets/ResetPasswordIcon_custom.png';
 import SignOutIcon from '../assets/SignOutIcon_custom.png';
 
+/* Find a way to implement Navbar functionality with the button component or use a new component entirely */
 function Menu() {
     return (
         <>
